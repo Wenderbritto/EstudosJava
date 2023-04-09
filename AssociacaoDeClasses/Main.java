@@ -10,12 +10,12 @@ public class Main {
         cliente1.nome = "Maria Andrade";
 
         CartaoDeCredito cc1 = new CartaoDeCredito();
-        cc1.cliente = cliente1;
+        cc1.client = cliente1;
         cc1.dataValidade = "10/2027";
         cc1.numero = 4605;
 
         System.out.println("\n<<< Cliente1 >>>");
-        System.out.println("Nome: " + cc1.cliente.nome);
+        System.out.println("Nome: " + cc1.client.nome);
     
         System.out.println("\n<<< Cartao de Crédito: cc1 >>>");
         System.out.println("Número: " + cc1.numero);
