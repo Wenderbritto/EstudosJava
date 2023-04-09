@@ -5,6 +5,6 @@ public class CartaoDeCredito {
     public int numero;
     public String dataValidade;
     //Fazendo a associação de classe
-    public Cliente cliente;
+    public Cliente client;
     
 }
