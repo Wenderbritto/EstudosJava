@@ -1,6 +1,7 @@
 package Heranca;
 
-public class Funcionario extends Pessoa {
+public class Funcionario extends Pessoa 
+{
     private String departamento;
     
     public Funcionario (String nome, int matricula, String departamento)
@@ -10,13 +11,11 @@ public class Funcionario extends Pessoa {
     }
 
     public String getDepartamento() {
-        return departamento;
+        return this.departamento;
     }
 
     public void setDepartamento(String departamento) {
         this.departamento = departamento;
-    }
-    
-    
-    
+    }    
 }
+

@@ -16,6 +16,5 @@ public class Coordenador extends Pessoa {
     public void setCursoCoordenado(String cursoCoordenado) {
         this.cursoCoordenado = cursoCoordenado;
     }
-    
-    
 }
+
